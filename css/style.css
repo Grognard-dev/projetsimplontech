@@ -1,0 +1,301 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+/* include */
+header{
+    font-size: 0;
+}
+.navbar-container{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    background: linear-gradient(white, #D9EEF4);
+    text-align: center;
+    padding: 0;
+    font-family: 'Prata', serif;
+    font-weight: bold;
+    margin: 0;
+}
+.navbar-container li{
+    border: solid 1px black;
+    padding: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    align-content: center;
+    list-style-type: none;
+}
+.navbar-container li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    
+}
+.navbar-container li:hover{
+    background: linear-gradient(#4F7985, white);
+    padding: 20px 91px;
+    color: white;
+}
+.navbar-container li a:hover{
+    color:white;
+}
+
+.footer1{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    background-color: #D9EEF4;
+    list-style-type: none;
+    padding: 20px 0px;
+    text-align: center;
+     font-family: 'Play', arial;
+     justify-content: center;
+}
+.footer1 h2{
+    display: flex;
+    justify-content: center;
+    
+}
+.footer2{
+    background-color: #7B9BA4;
+    padding: 1px;
+    text-align: center;
+     font-family: 'Play', arial;
+     margin: -16px 0px;
+}
+/*  accueil */
+.bienvenue{
+    display: flex;
+    text-align: center;
+    align-content: center;
+    flex-direction: column;
+    background-color: #D9EEF4;
+    margin: 50px 210px;
+    font-family: 'Prata', serif;
+    font-size: 31px;
+}
+
+.tableau-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 30px;
+    text-align: center;
+    background-color: #D9EEF4;
+    font-family: 'Prata', serif;
+    grid-column-gap: 5%;
+    margin-bottom: 50px;
+}
+.tableau img{
+    width: 100%;
+}
+
+.slider{
+    margin-bottom: 50px;
+}
+/* fichier-produit*/
+
+.top-fiche{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    font-family: Montserrat;
+    margin-top: 50px;
+    align-items: center;
+
+}
+.description{
+    font-family: 'Prata', serif;
+}
+.caracteristique{
+    font-family: 'Prata', serif;
+}
+.carac-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    font-family: 'Montserrat', sans-serif;
+}
+.carac-container ul{
+    list-style-type: none;
+}
+/* galerie produit*/
+aside{
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    position: sticky;
+    background: rgba(155, 202, 216, 0.5);
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+aside ul{
+    list-style-type: none;
+}
+aside ul li{
+    background-color: #D9EEF4;
+    width: 60%;
+    border: solid black 1px;
+}
+aside ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+aside a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+aside a:hover{
+    color:white;
+    background:#4F7985;
+}
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: #4F7985;
+    padding: 0px;
+    width: 100%;
+}
+aside > ul li:hover .sous{
+    display: block;
+    
+}
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+    background:#4F7985;
+    
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+    
+}
+.sous a:hover{
+    border-bottom:none;
+    background-color:#96C7D5;
+    
+}
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 12px;
+}
+.produit-container{
+   display: grid;
+   
+}
+.liste{
+   display: flex;
+    flex-direction: row;
+    align-items: center;
+    grid-column: 2/2;
+    margin-top: 20px;
+    margin-left: 101px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.liste ul li{
+    list-style-type: none;
+}
+
+.liste  img{
+    width: 70%;
+}
+.color{
+    background:rgba(217, 238, 244, 0.59);
+}
+/*contact*/
+form{
+    display: grid;
+    grid-template-columns: 194px 1fr;
+    margin: 29px 301px;
+}
+.formulaire{
+    padding-bottom: 15px;
+}
+.bouton{
+    margin-left: 200px;
+    margin-right: 100px;
+}
+.avis{
+    font-family: 'Prata', serif;
+    margin-bottom: 30px;
+}
+.avis-container{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+}
+.avis-text img {
+    
+}
+.avis-text{
+    display: flex;
+    align-items: center;
+    width:30%;
+    background-color: #D9EEF4;
+    font-family: 'Montserrat', sans-serif;
+}
+.reverse{
+    flex-direction: row-reverse;
+    margin-left: 10px;
+}
+.btn{
+    background:#4F7985;
+    color:white;
+    padding: 5px 27px;
+
+}
+@keyframes mouvement-uniforme {
+  0% 		{ animation-timing-function: linear; transform: translateX(-50px) rotateY(0deg); }
+  50% 	{ animation-timing-function: linear; transform: translateX(100%) rotateY(0deg); }
+  51% 	{ animation-timing-function: linear; transform: translateX(100%) rotateY(180deg); }
+  100%    { animation-timing-function: linear; transform: translateX(-50px) rotateY(180deg); }
+}
+#bouge{ 
+  color:#3366cc;
+  font-size:1.2em; 
+  animation: mouvement-uniforme 10s infinite;
+  transform-origin: 0 0;
+}
+#conteneur{
+  width: 100%;
+  overflow: hidden;
+  background: #003366;
+  display: none;
+}
+
+
+
+        .jssorl-009-spin img {
+            animation-name: jssorl-009-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-009-spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        
+        .jssorb032 {position:absolute;}
+        .jssorb032 .i {position:absolute;cursor:pointer;}
+        .jssorb032 .i .b {fill:#fff;fill-opacity:0.7;stroke:#000;stroke-width:1200;stroke-miterlimit:10;stroke-opacity:0.25;}
+        .jssorb032 .i:hover .b {fill:#000;fill-opacity:.6;stroke:#fff;stroke-opacity:.35;}
+        .jssorb032 .iav .b {fill:#000;fill-opacity:1;stroke:#fff;stroke-opacity:.35;}
+        .jssorb032 .i.idn {opacity:.3;}
+
+        
+        .jssora051 {display:block;position:absolute;cursor:pointer;}
+        .jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
+        .jssora051:hover {opacity:.8;}
+        .jssora051.jssora051dn {opacity:.5;}
+        .jssora051.jssora051ds {opacity:.3;pointer-events:none;}
