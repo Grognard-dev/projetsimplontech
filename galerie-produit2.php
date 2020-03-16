@@ -23,10 +23,10 @@
   <div class="container">
     <div class="produit-container">
       
-      <aside>
+       <aside>
         <h1>Tous nos produit</h1>
         <ul>
-          <li class="deroulant"><a href="">Ordinateur</a>
+          <li class="deroulant"><a href=""><img src="image/ordinateur.png" alt=""> Ordinateur </a>
             <ul class="sous">
               <li>
                 <a href="galerie-produit.php">XI</a>
@@ -39,7 +39,7 @@
               </li>
             </ul>
           </li>
-          <li class="deroulant"><a href="">Ordinateur</a>
+          <li class="deroulant"><a href=""> <img src="image/portable.png" alt="">Portable </a>
             <ul class="sous">
               <li>
                 <a href="">XI</a>
@@ -52,7 +52,7 @@
               </li>
             </ul>
           </li>
-          <li class="deroulant"><a href="">Ordinateur</a>
+          <li class="deroulant"><a href="">  <img src="image/souris.png" alt="">Souris</a>
             <ul class="sous">
               <li>
                 <a href="">XI</a>
@@ -65,7 +65,7 @@
               </li>
             </ul>
           </li>
-          <li class="deroulant"><a href="">Ordinateur</a>
+          <li class="deroulant"><a href=""><img src="image/clavier.png" alt="">Clavier </a>
             <ul class="sous">
               <li>
                 <a href="">XI</a>
@@ -78,7 +78,7 @@
               </li>
             </ul>
           </li>
-          <li class="deroulant"><a href="">Ordinateur</a>
+          <li class="deroulant"><a href=""> <img src="image/casque.png" alt="">Casque </a>
             <ul class="sous">
               <li>
                 <a href="">XI</a>
@@ -92,6 +92,7 @@
             </ul>
           </li>
         </aside>
+        </div>
         <div class="liste ">
           <a rel="prettyPhoto[myGallery]" title="XY-3000" href="image/XY.jpg">
             <img alt="" src="image/XY.jpg" />
