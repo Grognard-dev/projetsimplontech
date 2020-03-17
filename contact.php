@@ -68,7 +68,7 @@
   </div>
 </div>
 </div>
-  <div id="map"></div>
+  <<iframe src="https://www.google.com/maps/d/u/0/embed?mid=106OZPmLdAz_UnF4CLJoVhrTYIt3KJ4BF" width="1350" height="480"></iframe>
     <?php include "footer.php"?>
      <script>
        <?php include "formulaire.php" ?>
