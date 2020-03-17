@@ -23,7 +23,9 @@
   <div class="container">
     <div class="produit-container">
       
-       <aside>
+          <div class="produit-container">
+      
+      <aside>
         <h1>Tous nos produit</h1>
         <ul>
           <li class="deroulant"><a href=""><img src="image/ordinateur.png" alt=""> Ordinateur </a>
