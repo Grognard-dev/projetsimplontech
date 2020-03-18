@@ -20,7 +20,7 @@
         <p>
             Bienvenue sur le nouveau site de simplon tech , votre partenaire informatique dans les Ardennes.
         </p>
-        <img src="image/bienvenue.jpg" alt="">
+        <img src="image/slideinfos.jpg" alt="">
     </div>
     <div class="slider">
         <?php include "slider.php" ?>
@@ -28,15 +28,15 @@
     <div class="tableau-container">
         <div class="tableau">
             <p>Maintenance</p>
-            <img src="image/bienvenue.jpg" alt="">
+            <img src="image/maintenances.jpg" alt="">
         </div>
         <div class="tableau">
             <p>Vente</p>
-            <img src="image/bienvenue.jpg" alt="">
+            <img src="image/ventes.jpg" alt="">
         </div>
         <div class="tableau">
             <p>Livraison</p>
-            <img src="image/bienvenue.jpg" alt="">
+            <img src="image/livraisons.jpg" alt="">
         </div>
     </div>
     <?php include "footer.php"?>

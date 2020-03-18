@@ -1,17 +1,17 @@
-<div id="jssor_2" style="position:relative;margin:0 auto;top:0px;left:0px;width:1300px;height:235.385px;overflow:hidden;visibility:hidden;">
+<div id="jssor_2" style="position:relative;margin:0 auto;top:0px;left:0px;width:1300px;height:300.385px;overflow:hidden;visibility:hidden;">
     <!-- Loading Screen -->
     <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
         <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
     </div>
     <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1300px;height:500px;overflow:hidden;">
         <div>
-            <img data-u="image" src="image/367CH6VUXGZMPLXK4S3ZOGNPBA.jpg" />
+            <img data-u="image" src="image/slider2.jpg" />
         </div>
         <div>
-            <img data-u="image" src="image/367CH6VUXGZMPLXK4S3ZOGNPBA.jpg" />
+            <img data-u="image" src="image/slider1.jpg" />
         </div>
         <div>
-            <img data-u="image" src="image/367CH6VUXGZMPLXK4S3ZOGNPBA.jpg" />
+            <img data-u="image" src="image/slider4.jpg" />
         </div>
     </div>
     <!-- Bullet Navigator -->
