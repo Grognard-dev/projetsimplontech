@@ -29,7 +29,7 @@
   <a href="image/XI2.jpg"><img src="image/XI2.jpg" width="144" height="96"></a>
   <a href="image/XI3.jpg"><img src="image/XI3.jpg" width="144" height="96"></a>
 </div>
-    <h1>XI 2000<br><br>Le Top du PC</h1>
+    <h1>XI 3000<br><br>Le Top du PC</h1>
 </div>
 <div class="description">
   <h2>Description produit</h2>
