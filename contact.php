@@ -47,11 +47,11 @@
 <div class="avis">
   <div class="avis-container">
   <div class="avis-text">
-              <img src="image/belle.jpg" alt="">
-              <p>Je deteste cette boutique , c’est de la fiante de moineaux</p><br>
+              <img src="image/avatar1.png" alt="">
+              <p>c'est pas le site de la convention star wars ?</p><br>
   </div>
   <div class="avis-text reverse">
-              <img src="image/belle.jpg" alt="">
+              <img src="image/avatar2.png" alt="">
               <p>Je deteste cette boutique , c’est de la fiante de moineaux</p><br>
   </div>
 </div>
@@ -59,8 +59,8 @@
 <div class="avis">
   <div class="avis-container">
   <div class="avis-text">
-              <img src="image/belle.jpg" alt="">
-              <p>Je deteste cette boutique , c’est de la fiante de moineaux</p><br>
+              <img src="image/avatar3.jpg" alt="">
+              <p>Je pensais que c'était un site de lingerie.</p><br>
   </div>
   <div class="avis-text reverse">
               <img src="image/belle.jpg" alt="">
