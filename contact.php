@@ -22,6 +22,7 @@
         <?php include "header.php" ?>
     </header>
     <?php include "navbar.php" ?>
+    <?php include "formulaire.php" ?>
     <form method="post">
     <div class="formulaire-container">
   <div class="formulaire">
@@ -71,7 +72,6 @@
   <<iframe src="https://www.google.com/maps/d/u/0/embed?mid=106OZPmLdAz_UnF4CLJoVhrTYIt3KJ4BF" width="1350" height="480"></iframe>
     <?php include "footer.php"?>
      <script>
-       <?php include "formulaire.php" ?>
 function initMap() {
   var charleville = {lat: 49.77483, lng:  4.70182};
   var map = new google.maps.Map(

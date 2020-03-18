@@ -23,7 +23,7 @@ if (isset($_POST['bouton'])){
         
         $dbh = new PDO('mysql:host=db5000303931.hosting-data.io;dbname=dbs296967', $user, $pass);
         
-        $pdoStat = $dbh->prepare ("INSERT INTO emailcontact(nom, prenom, emails, messages) VALUES (:nom, :prenom, :email, :messages)") ;
+        $pdoStat = $dbh->prepare ("INSERT INTO email-contact (nom, prenom, emails, messages) VALUES (:nom, :prenom, :email, :messages)") ;
         
         
         $pdoStat->bindValue(':nom', $nom);
@@ -34,6 +34,3 @@ if (isset($_POST['bouton'])){
         $pdoStat->execute();
     }
 }
-
-
-
