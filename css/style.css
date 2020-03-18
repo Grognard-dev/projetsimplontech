@@ -19,6 +19,10 @@ header{
     font-family: 'Prata', serif;
     font-weight: bold;
     margin: 0;
+     overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
 }
 .navbar-container li{
     border: solid 1px black;
@@ -45,6 +49,7 @@ header{
 .navbar-container img{
     width:5%;
 }
+
 
 .footer1{
     display: grid;
