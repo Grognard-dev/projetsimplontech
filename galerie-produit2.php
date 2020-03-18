@@ -100,10 +100,10 @@
             <img alt="" src="image/XY.jpg" />
           </a>   
           <ul>
-            <a href="fichier-produit.php"><p>XY-3000</p></a>
+            <a href="fichier-produit2.php"><p>XY-3000</p></a>
             <li>Garantie commerciale : 2ans</li>
-            <li>Carte Graphique : Gtx 960</li>
-            <li>Processeur : Intelcore 7</li>
+            <li>Carte Graphique : Radeon 960</li>
+            <li>Processeur : Intelcore 5</li>
           </ul>
         </div>
          <div class="liste color">
@@ -111,10 +111,10 @@
             <img alt="" src="image/XY.jpg" />
           </a>   
           <ul>
-            <a href="fichier-produit.php"><p>XY-3000</p></a>
+            <a href="fichier-produit2.php"><p>XY-3000</p></a>
             <li>Garantie commerciale : 2ans</li>
-            <li>Carte Graphique : Gtx 960</li>
-            <li>Processeur : Intelcore 7</li>
+            <li>Carte Graphique : Radeon 960</li>
+            <li>Processeur : Intelcore 5</li>
           </ul>
         </div>
         <div class="liste ">
@@ -122,10 +122,10 @@
             <img alt="" src="image/XY.jpg" />
           </a>   
           <ul>
-            <a href="fichier-produit.php"><p>XY-3000</p></a>
+            <a href="fichier-produit2.php"><p>XY-3000</p></a>
             <li>Garantie commerciale : 2ans</li>
-            <li>Carte Graphique : Gtx 960</li>
-            <li>Processeur : Intelcore 7</li>
+            <li>Carte Graphique : Radeon 960</li>
+            <li>Processeur : Intelcore 5</li>
           </ul>
         </div>
         </div>
