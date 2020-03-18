@@ -22,8 +22,8 @@
         <?php include "header.php" ?>
     </header>
     <?php include "navbar.php" ?>
-    <?php include "formulaire.php" ?>
-    <form method="post">
+    <?php include "formulaires.php" ?>
+    <form method="POST">
     <div class="formulaire-container">
   <div class="formulaire">
     <input type="text" class="form-control" placeholder="Last name" name="user_lastname" value="<?= htmlentities($nom ?? '') ?>">

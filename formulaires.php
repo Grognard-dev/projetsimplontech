@@ -9,7 +9,7 @@ if (isset($_POST['bouton'])){
     if ($nom === null || $prenom === null || $email === null || $messages === null) {
        echo 'champ non rempli';
     } else {
-        $to = 'lefevre.gregoire19@gmail.com';
+        $to = 'bonobobotamriel@outlook.fr';
         $subject = 'Contact';
         $message = " $messages";
         $headers = "From: $nom $prenom <".$email.">  \r\n" ;
@@ -23,7 +23,7 @@ if (isset($_POST['bouton'])){
         
         $dbh = new PDO('mysql:host=db5000303931.hosting-data.io;dbname=dbs296967', $user, $pass);
         
-        $pdoStat = $dbh->prepare ("INSERT INTO email-contact (nom, prenom, emails, messages) VALUES (:nom, :prenom, :email, :messages)") ;
+        $pdoStat = $dbh->prepare ("INSERT INTO emailcontact(nom, prenom, emails, messages) VALUES (:nom, :prenom, :email, :messages)") ;
         
         
         $pdoStat->bindValue(':nom', $nom);
@@ -34,3 +34,6 @@ if (isset($_POST['bouton'])){
         $pdoStat->execute();
     }
 }
+
+
+
