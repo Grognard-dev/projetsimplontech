@@ -35,13 +35,16 @@ header{
 .navbar-container li a{
     text-decoration: none;
     color: black;
-    font-size: 20px;
     
 }
 .navbar-container li:hover{
     background: linear-gradient(#4F7985, white);
     padding: 20px 91px;
     color: white;
+    padding-left: 0;
+    padding-right: 0;
+    align-content: center;
+    list-style-type: none;
 }
 .navbar-container li a:hover{
     color:white;
@@ -261,6 +264,66 @@ form{
     padding: 5px 27px;
 
 }
+
+
+@media (max-width: 700px){
+    .bienvenue{
+        margin: 0;
+        flex-direction: none;
+    }
+    .produit-container{
+        display: block;
+    }
+    .avis-text{
+        width: 40%;
+    }
+}
+@media (max-width: 870px){
+    form{
+        margin: 30px;
+        
+    }
+}
+
+@media (max-width:510px){
+    .tableau-container{
+        display: block;
+    }
+    .footer1{
+        display: block;
+    }
+     .avis-text{
+        width: 50%;
+        }
+        form{
+        margin: 12px;
+        padding-top: 45px;
+        display: block;
+        
+    }
+}
+@media (max-width:410px){
+    .navbar-container{
+        display: contents;
+        
+    }
+    aside{
+        position: inherit;
+        margin-top: 65px;
+    }
+    .liste{
+        display: block;
+        font-size: 13px;
+    }
+    
+}
+@media (max-width: 1140px){
+    .liste{
+        display: block;
+    }
+    
+}
+
 @keyframes mouvement-uniforme {
   0% 		{ animation-timing-function: linear; transform: translateX(-50px) rotateY(0deg); }
   50% 	{ animation-timing-function: linear; transform: translateX(100%) rotateY(0deg); }
