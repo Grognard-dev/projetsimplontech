@@ -325,24 +325,21 @@ form{
     
 }
 
-@keyframes mouvement-uniforme {
-  0% 		{ animation-timing-function: linear; transform: translateX(-50px) rotateY(0deg); }
-  50% 	{ animation-timing-function: linear; transform: translateX(100%) rotateY(0deg); }
-  51% 	{ animation-timing-function: linear; transform: translateX(100%) rotateY(180deg); }
-  100%    { animation-timing-function: linear; transform: translateX(-50px) rotateY(180deg); }
+@keyframes mymove {
+  0%   {right: 0px;  width: 100px;}
+  50% {right: 500px;  width: 300px;}
+  100%{top: 1000px; width:500px;}
 }
-#bouge{ 
-  color:#3366cc;
-  font-size:1.2em; 
-  animation: mouvement-uniforme 10s infinite;
-  transform-origin: 0 0;
-}
-#conteneur{
-  width: 100%;
-  overflow: hidden;
-  background: #003366;
+.banane {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: mymove 5s infinite;
+  position:absolute;
   display: none;
 }
+
 
 
 
